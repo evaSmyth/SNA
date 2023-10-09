@@ -1,0 +1,188 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  border: ;
+}
+
+main {
+  align-items: center;
+}
+
+.tinted-image {
+  background: linear-gradient(
+      rgba(178, 190, 172, 0.85),
+      rgba(178, 190, 172, 0.85)
+    ),
+    url("https://img.wallpapersafari.com/desktop/800/450/50/4/0hSgOD.jpg");
+}
+
+#navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 18em;
+  position: fixed;
+  background: linear-gradient(
+    transparent 0%,
+    transparent 20%,
+    rgb(17, 17, 17) 35%,
+    rgb(61, 61, 61) 100%
+  );
+  bottom: 28px;
+}
+
+#nav-header {
+  width: 8.5em;
+  height: 6em;
+  font-size: 30px;
+  margin: 0 0 15px 5px;
+  text-align: center;
+  padding: 42px 5px 0 0;
+  border-radius: 2%;
+  color: aliceblue;
+  background: linear-gradient(
+    rgb(223, 219, 219) 0%,
+    rgb(17, 17, 17) 10%,
+    rgb(17, 17, 17) 90%,
+    rgb(223, 219, 219) 100%
+  );
+}
+
+.nav-link {
+  width: 16em;
+  height: 4.5em;
+  background: linear-gradient(
+    rgb(185, 184, 184) 0%,
+    rgb(248, 247, 247) 15%,
+    rgb(248, 247, 247) 90%,
+    rgb(17, 17, 17) 100%
+  );
+  color: black;
+  text-align: right;
+  margin-top; 2.2em;
+  padding: 9% 3% 0 0;
+  text-decoration: none;
+  border-radius: 0 7% 10% 0;
+  border: 1px solid rgb(61, 61, 61);
+  position: relative;
+}
+
+.black-key::before {
+  background-color: black;
+  content: "";
+  width: 5.5em;
+  height: 2.2em;
+  border: 2px solid black;
+  display: flex;
+  position: absolute;
+  top: -24px;
+  border-radius: 0 8% 6% 0;
+  background: linear-gradient(black 0%, white 10%, black 28%, black 100%);
+}
+
+.nav-link:hover {
+  border-bottom-width: 0;
+  font-style: italic;
+  padding-top: 9%;
+  background: linear-gradient(
+    rgb(48, 47, 47) 0%,
+    rgb(197, 195, 195) 29%,
+    rgb(211, 210, 210) 87%,
+    rgb(17, 17, 17) 100%
+  );
+}
+
+
+.section-header {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-p {
+  font-size: 20px;
+}
+
+.main-section {
+  width: 60%;
+  border: 0.5px solid black;
+  margin: 50px 50px 50px 430px;
+  padding: 30px;
+  background-color: rgba(252, 242, 229, 0.6);
+}
+
+
+ul {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px)  {
+ 
+  #navbar {
+  align-items: center;
+  position:;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 5px auto;
+  background: transparent;
+  z-index: 2;
+  }
+  
+  .nav-link {
+  max-width: 13.5%;
+  min-width: 13.5%;
+  height: 150px;
+  
+  background: linear-gradient(
+    90deg,
+    rgb(185, 184, 184) 0%,
+    rgb(248, 247, 247) 15%,
+    rgb(248, 247, 247) 90%,
+    rgb(17, 17, 17) 100%
+  );
+    border-radius: 0 0 7% 7%;
+    margin: 70px 0 20px 0;
+    
+}
+  .black-key::before {
+  width: 40%;
+  height: 70px;
+  top: -2px;  
+  left: -28%; 
+  background: linear-gradient(black 0%, white 10%, black 28%, black 85%, white 94%,     black 94%, black 100%);
+  border-radius: 0 0% 6% 6%;
+  }
+  
+  #nav-header {
+  width: 108%;
+  height: 7em;
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  padding-top: 10px ;
+  padding-right: ;
+  position: absolute;
+  top: -10px; 
+  }
+
+  .nav-link:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(48, 47, 47) 0%,
+    rgb(197, 195, 195) 18%,
+    rgb(211, 210, 210) 85%,
+    rgb(17, 17, 17) 100%
+  );
+  }
+  
+.main-section {
+  width: 100%;
+  margin: 300px auto;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  }
+}
