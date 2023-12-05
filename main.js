@@ -3,7 +3,7 @@
 const hamburgerBtn  = document.querySelector('.hamburg-btn');
 const navList = document.querySelector('.main-nav');
 const removeNav = document.querySelector('.remove-nav');
-const main = document.querySelector('.main')
+const main = document.querySelector('.main');
 
 const showNav = function() {
     navList.classList.add('nav-bar-show');
