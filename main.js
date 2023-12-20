@@ -7,6 +7,8 @@ const main = document.querySelector('.main');
 const footer = document.querySelector('.footer-container')
 const footerBand = document.querySelector('.top-footer-band')
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 const showNav = function() {
     navList.classList.add('nav-bar-show');
     main.classList.add('blur');
@@ -53,7 +55,6 @@ shopBtn.addEventListener('click', function() {
     aboutMeDropdown.classList.remove('show-dropdown');
     trainingDropdown.classList.remove('show-dropdown');
 });
-
 
 
 

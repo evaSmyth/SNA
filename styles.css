@@ -344,7 +344,7 @@ body {
 
 .design-by  > p{
   font-size: 14px;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   text-align: center;
   
 }
@@ -352,7 +352,7 @@ body {
 .main-footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #758467;
   padding: 3em 9%;
 }
@@ -364,6 +364,7 @@ body {
   color: rgb(78, 77, 77);
   color: white;
   padding: unset;
+  text-align: center;
 }
 
 .footer-submit {
@@ -500,27 +501,62 @@ body {
   padding: 0 2em 0 2em;
 }
 
+.subscribe-container {
+  padding: 4em;
+}
+
 .subscribe {
   display: flex;
   flex-direction: column;
-  padding: 4em;
   gap: 1em;
   align-items: center;
 }
 
-.subscribe > label {
+.mc-field-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mc-field-group > label {
+  font-size: 25px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.subscribe > h2 {
   font-size: 25px;
 }
 
-.subscribe > input {
-  height: 40px;
-  width: 50%;
+.email {
+  height: 35px;
+  width: 100%;
   padding: 0.5em;
   font-size: 18px;
+  color: black;
 }
 
 .subscribe > p {
   text-align: center;
+}
+
+.error {
+  margin-top: 1em;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.success {
+  margin-top: 1em;
+  color: rgb(2, 144, 2);
+  font-weight: bolder;
+  text-align: center;
+  font-size: larger;
+  text-decoration: underline;
 }
 
 .single-ul {
@@ -638,13 +674,13 @@ body {
 
 .link-left > p, .link-right p {
   padding: 0 1.5em 0 1.5em;
-  margin: 1em;
+  margin: 1em 0.5em;
   line-height: 150%;
 }
 
 .link-right {
   width: 40%;
-  padding: 2em;
+  padding-top: 1.5em ;
   text-align: center;
   background-color: #cbd5c0;
   justify-content: center;
@@ -900,6 +936,8 @@ li > p > a:hover {
 }
 
 
+
+
 /*MOBILE STYLING*/
 @media only screen and (max-width: 700px){   /*MOBILE STYLING!!!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -1112,6 +1150,7 @@ li > p > a:hover {
 
 .logo-mobile {
   height: 10em;
+  margin-top: 0.5em;
 }
 
 
@@ -1332,6 +1371,7 @@ li > p > a:hover {
 .flip-card {
   width: 90%;
 }
+
 
 .flip-front:hover {
   opacity: 32%;
