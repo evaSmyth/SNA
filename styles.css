@@ -23,6 +23,14 @@ body {
   background-color: #FEFEFA;
 }
 
+.green-font {
+  color: #758467;
+}
+
+.green-font:hover {
+  color: black;
+}
+
 .blush {
   background-color: #efe0d3;
 }
@@ -135,7 +143,7 @@ body {
   border: none;
   background-color: #FEFEFA;
   font-size: medium;
-  list-style: disc; 
+  
 }
 
 .dropdown > li:hover {
@@ -332,6 +340,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 90%;
 }
 
 .footer-container {
@@ -433,7 +442,8 @@ body {
   letter-spacing: 0.1em;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2em;
   align-items: center; 
 }
 
@@ -578,6 +588,7 @@ body {
 .single-ul > ul > li {
   margin-bottom: 1em;
   text-align: justify;
+  line-height: 150%;
 }
 /*INTERVIEW PAGE........................................................////////////////*/
 
@@ -635,6 +646,7 @@ body {
 .link-main > p {
   padding: 0 1.5em 0 1.5em;
   margin: 1em;
+ 
 }
 
 .small-click-section {
@@ -1021,14 +1033,14 @@ li > p > a:hover {
   align-items: flex-start;
   justify-content: space-between;
   width: 50vw;
-  height: 60vh;
+  height: 75vh;
   margin: auto;
-  padding:1em 1em 1em 0.8em;
+  padding:1em 1em 4em 0.8em;
   background-color: #FEFEFA;
   z-index: 10;
   opacity: 0%;
   transition: 0.5s;
-  font-size: 16px;
+  font-size: 14px;
   border-bottom: none;
   box-shadow: 1px 2px 15px rgb(162, 161, 161);
 }
@@ -1051,29 +1063,31 @@ li > p > a:hover {
   border-bottom: none;
   left: -200%;
   top: 0;
-  padding: 2em;
+  padding: 1em;
   justify-content: center;
   box-shadow: 1px 2px 15px rgb(162, 161, 161);
+  
 }
 
 .dropdown-list {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  
+  
 }
 
 .dropdown > a > li {
   font-size: larger;
   text-align: left;
-  padding: 0.3em;
+  padding: 0px;
   color: grey;
-  border-radius: 5%;
+  border-radius: ;
   border: none;
   background-color: #FEFEFA;
   font-size: larger;
   height: fit-content;
-  margin-bottom: 1em;
-  list-style: disc;
+  
 }
 
 .show-dropdown {
@@ -1086,6 +1100,7 @@ li > p > a:hover {
 
 .second-nav {
   width: 100VW;
+  font-size: 90%;
 }
 
 .top-section-band {
@@ -1212,6 +1227,10 @@ li > p > a:hover {
   
 }
 
+.top-footer-band {
+  font-size: 75%;
+}
+
 
 .footer-sections > ul > a > li {
   font-size: small;
@@ -1331,7 +1350,7 @@ li > p > a:hover {
 }
 
 .single-ul {
-  width: 90%;
+  width: 75%;
   padding: 0;
 }
 
