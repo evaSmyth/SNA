@@ -22,7 +22,6 @@ const hideNav = function() {
     navList.classList.remove('nav-bar-show');
     aboutMeDropdown.classList.remove('show-dropdown');
     trainingDropdown.classList.remove('show-dropdown');
-    shopDropdown.classList.remove('show-dropdown');
     
 };
 hamburgerBtn.addEventListener('click',showNav);
@@ -50,11 +49,7 @@ trainingBtn.addEventListener('click', function() {
     shopDropdown.classList.remove('show-dropdown');
 });
 
-shopBtn.addEventListener('click', function() {
-    shopDropdown.classList.toggle('show-dropdown');
-    aboutMeDropdown.classList.remove('show-dropdown');
-    trainingDropdown.classList.remove('show-dropdown');
-});
+
 
 
 
