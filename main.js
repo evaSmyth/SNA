@@ -67,3 +67,14 @@ trainingBtn.addEventListener('click', function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
